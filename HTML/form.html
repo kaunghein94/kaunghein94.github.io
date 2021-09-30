@@ -10,10 +10,10 @@
     <h1>Student Registration</h1>
     <form action="register.php" method="POST">       
         <label for="name">Name</label>
-        <input type="text" name="stu_name" id="name">
+        <input type="text" name="stu_name" id="name" placeholder="Your Name">
         <br><br>
         <label for="email">Email</label>
-        <input type="email" name="stu_email" id="email">
+        <input type="email" name="stu_email" id="email" value="@email.com" readonly>
         <br><br>
         <label for="password">Password</label>
         <input type="password" name="stu_password" id="password">
@@ -39,6 +39,13 @@
         <label for="">Hobby</label><br>
         <input type="checkbox" name="reading" id="reading"><label for="reading">Reading</label>
         <input type="checkbox" name="travelling" id="travelling"><label for="travelling">Travelling</label>
+        <input type="checkbox" name="gaming" id="gaming"><label for="gaming">Gaming</label>
+        <br><br>
+        <label for="address">Address</label>
+        <textarea name="stu_address" id="address" rows="10" cols="50"></textarea>
+        <br>
+
+
 
         <button type="submit">Submit</button>
     </form>
